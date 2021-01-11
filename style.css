@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+
+
+body {
+background-color: honeydew;
+font-family: "Potta One";
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+  
+   
+}
+
+.restart {
+    margin: auto;
+    text-align: center;
+    
+}
+.button_restart {
+    border: 2px solid black;
+    background-color: darkseagreen;
+    height: 40px;  
+    font-family:"Potta One" ;  
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    background-color:lightgray;
+    grid-template-columns: repeat(3, 1fr);
+    width: 400px;
+    grid-gap: 10px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.cell {
+    width: auto;
+    height: 100px;
+    width: auto;
+    background-color: rgb(54, 194, 219);
+    border-style: solid;
+    line-height: 50px;
+    font-size: 40px;
+
+}
